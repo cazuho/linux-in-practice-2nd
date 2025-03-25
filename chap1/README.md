@@ -1,4 +1,5 @@
-go build hello.go 
+```bash
+go build hello.go
 ./hello
 strace -o hello.log ./hello
 cat hello.log 
@@ -28,3 +29,4 @@ cc -o pause pause.c
 ls -l pause
 ldd pause
 ldd hello
+```
